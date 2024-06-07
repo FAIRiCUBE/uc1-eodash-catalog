@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "a31ab40b-3748-48bb-ac9b-0c1def43a744",
+  "properties": {
+    "datetime": "2018-01-01T00:00:00Z",
+    "proj:epsg": 3035,
+    "proj:bbox": [
+      6900000.0,
+      900000.0,
+      7400000.0,
+      1500000.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:EPSG::3035"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            6900000.000368189,
+            899999.9986336487
+          ],
+          [
+            7400000.000440067,
+            899999.9985969854
+          ],
+          [
+            7400000.000434471,
+            1499999.9988026752
+          ],
+          [
+            6900000.000351546,
+            1499999.99887175
+          ],
+          [
+            6900000.000368189,
+            899999.9986336487
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          35.93146991742181,
+          27.16908443662496
+        ],
+        [
+          40.66270698836195,
+          25.54471115604323
+        ],
+        [
+          42.5951063168987,
+          30.58982239917373
+        ],
+        [
+          37.641870871162936,
+          32.33080058458797
+        ],
+        [
+          35.93146991742181,
+          27.16908443662496
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Tree cover density 2018"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/a42b84dd-a8a0-403c-a74e-4435d673b3c1",
+      "type": "image/png",
+      "title": "tree_cover_density",
+      "wms:layers": [
+        "TREE_COVER_DENSITY2018"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2018-01-01T00:00:00Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Tree cover density 2018"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    35.93146991742181,
+    25.54471115604323,
+    42.5951063168987,
+    32.33080058458797
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "byoc-3947b646-383c-4e91-aade-2f039bd6ba4b"
+}

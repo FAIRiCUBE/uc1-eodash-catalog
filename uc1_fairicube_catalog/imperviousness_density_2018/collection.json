@@ -1,0 +1,124 @@
+{
+  "type": "Collection",
+  "id": "imperviousness_density_2018",
+  "stac_version": "1.0.0",
+  "description": "CLMS Imperviousness Density 2018 10m resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "child",
+      "href": "./imperviousness_density_2018/collection.json",
+      "type": "application/json",
+      "title": "Imperviousness Density 2018 WMS",
+      "endpointtype": "WMS_OverwriteTimes",
+      "code": "IMD",
+      "id": "imperviousness_density_2018",
+      "themes": [
+        "example theme"
+      ],
+      "tags": [
+        "example tag"
+      ],
+      "agency": [
+        "EEA"
+      ],
+      "subcode": "IMD",
+      "sensor": [
+        "example sensorname"
+      ],
+      "satellite": [
+        "example satellite"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2021",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2021"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    }
+  ],
+  "themes": [
+    "example theme"
+  ],
+  "tags": [
+    "example tag"
+  ],
+  "agency": [
+    "EEA"
+  ],
+  "subcode": "IMD",
+  "sensor": [
+    "example sensorname"
+  ],
+  "satellite": [
+    "example satellite"
+  ],
+  "title": "Imperviousness Density 2018 WMS",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -31.900405,
+          46.194904,
+          27.042845,
+          72.215738
+        ],
+        [
+          -31.900405,
+          46.194904,
+          27.042845,
+          72.215738
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "IMD"
+    ],
+    "themes": [
+      "example theme"
+    ],
+    "satellite": [
+      "example satellite"
+    ],
+    "sensor": [
+      "example sensorname"
+    ]
+  }
+}

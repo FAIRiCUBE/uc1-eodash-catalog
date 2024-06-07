@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2020-01-01",
+  "properties": {
+    "datetime": "2020-01-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://image.discomap.eea.europa.eu/arcgis/services/GioLandPublic/HRL_ImperviousnessDensity_2018/ImageServer/WMSServer",
+      "type": "image/png",
+      "title": "imperviousness_density_2018",
+      "wms:layers": [
+        "HRL_ImperviousnessDensity_2018:IMD_MosaicSymbology.rft"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-01-01"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Imperviousness Density 2018 WMS"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Imperviousness Density 2018 WMS"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -31.900405,
+    46.194904,
+    27.042845,
+    72.215738
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "collection": "imperviousness_density_2018"
+}
