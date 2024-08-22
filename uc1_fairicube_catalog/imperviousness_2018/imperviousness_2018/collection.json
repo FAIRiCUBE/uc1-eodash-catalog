@@ -1,0 +1,77 @@
+{
+  "type": "Collection",
+  "id": "imperviousness_2018",
+  "stac_version": "1.0.0",
+  "description": "Share of sealed area 2018",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c57f7668-2717-4529-93cc-5372bc96ebbe/2018/583ee18b-bc14-4438-aa65-d78367479975.json",
+      "type": "application/json",
+      "datetime": "2018-01-01"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/a42b84dd-a8a0-403c-a74e-4435d673b3c1",
+      "type": "image/png",
+      "title": "imperviousness_2018",
+      "wms:layers": [
+        "IMPERVIOUSNESS_2018"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Imperviousness density 2018"
+    }
+  ],
+  "themes": [
+    "Luxembourg"
+  ],
+  "tags": [
+    "luxembourg, urban"
+  ],
+  "agency": [
+    "EEA"
+  ],
+  "subcode": "IMD",
+  "sensor": [
+    "example sensorname"
+  ],
+  "satellite": [
+    "example satellite"
+  ],
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Imperviousness density 2018",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          26.120953702244496,
+          27.16908443662496,
+          37.641870871162936,
+          34.95324700017583
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

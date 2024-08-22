@@ -1,0 +1,124 @@
+{
+  "type": "Collection",
+  "id": "tree_cover_density",
+  "stac_version": "1.0.0",
+  "description": "Tree cover density 2018",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "child",
+      "href": "./tree_cover_density/collection.json",
+      "type": "application/json",
+      "title": "Tree cover density 2018",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "TCD",
+      "id": "tree_cover_density",
+      "themes": [
+        "Luxembourg"
+      ],
+      "tags": [
+        "luxembourg, urban"
+      ],
+      "agency": [
+        "EEA"
+      ],
+      "subcode": "TCD",
+      "sensor": [
+        "example sensorname"
+      ],
+      "satellite": [
+        "example satellite"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2021",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2021"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    }
+  ],
+  "themes": [
+    "Luxembourg"
+  ],
+  "tags": [
+    "luxembourg, urban"
+  ],
+  "agency": [
+    "EEA"
+  ],
+  "subcode": "TCD",
+  "sensor": [
+    "example sensorname"
+  ],
+  "satellite": [
+    "example satellite"
+  ],
+  "title": "Tree cover density 2018",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          35.93146991742181,
+          25.54471115604323,
+          42.5951063168987,
+          32.33080058458797
+        ],
+        [
+          35.93146991742181,
+          25.54471115604323,
+          42.5951063168987,
+          32.33080058458797
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "TCD"
+    ],
+    "themes": [
+      "Luxembourg"
+    ],
+    "satellite": [
+      "example satellite"
+    ],
+    "sensor": [
+      "example sensorname"
+    ]
+  }
+}

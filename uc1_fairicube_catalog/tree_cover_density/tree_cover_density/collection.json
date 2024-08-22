@@ -1,0 +1,77 @@
+{
+  "type": "Collection",
+  "id": "tree_cover_density",
+  "stac_version": "1.0.0",
+  "description": "Tree cover density 2018",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-3947b646-383c-4e91-aade-2f039bd6ba4b/2018/a31ab40b-3748-48bb-ac9b-0c1def43a744.json",
+      "type": "application/json",
+      "datetime": "2018-01-01"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/a42b84dd-a8a0-403c-a74e-4435d673b3c1",
+      "type": "image/png",
+      "title": "tree_cover_density",
+      "wms:layers": [
+        "TREE_COVER_DENSITY2018"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Tree cover density 2018"
+    }
+  ],
+  "themes": [
+    "Luxembourg"
+  ],
+  "tags": [
+    "luxembourg, urban"
+  ],
+  "agency": [
+    "EEA"
+  ],
+  "subcode": "TCD",
+  "sensor": [
+    "example sensorname"
+  ],
+  "satellite": [
+    "example satellite"
+  ],
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Tree cover density 2018",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          35.93146991742181,
+          25.54471115604323,
+          42.5951063168987,
+          32.33080058458797
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

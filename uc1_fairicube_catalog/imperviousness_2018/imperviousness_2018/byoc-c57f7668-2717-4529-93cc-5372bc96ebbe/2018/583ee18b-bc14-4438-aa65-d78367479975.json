@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "583ee18b-bc14-4438-aa65-d78367479975",
+  "properties": {
+    "datetime": "2018-01-01T00:00:00Z",
+    "proj:epsg": 3035,
+    "proj:bbox": [
+      5900000.0,
+      900000.0,
+      6900000.0,
+      1500000.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:EPSG::3035"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            5900000.000220842,
+            899999.9987086263
+          ],
+          [
+            6900000.000368189,
+            899999.9986336487
+          ],
+          [
+            6900000.000351546,
+            1499999.99887175
+          ],
+          [
+            5900000.000200475,
+            1499999.998985574
+          ],
+          [
+            5900000.000220842,
+            899999.9987086263
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          26.120953702244496,
+          29.602128867445213
+        ],
+        [
+          35.93146991742181,
+          27.16908443662496
+        ],
+        [
+          37.641870871162936,
+          32.33080058458797
+        ],
+        [
+          27.261686623465827,
+          34.95324700017583
+        ],
+        [
+          26.120953702244496,
+          29.602128867445213
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Imperviousness density 2018"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/a42b84dd-a8a0-403c-a74e-4435d673b3c1",
+      "type": "image/png",
+      "title": "imperviousness_2018",
+      "wms:layers": [
+        "IMPERVIOUSNESS_2018"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2018-01-01T00:00:00Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Imperviousness density 2018"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    26.120953702244496,
+    27.16908443662496,
+    37.641870871162936,
+    34.95324700017583
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "byoc-c57f7668-2717-4529-93cc-5372bc96ebbe"
+}

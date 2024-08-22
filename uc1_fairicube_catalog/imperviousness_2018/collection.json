@@ -1,0 +1,124 @@
+{
+  "type": "Collection",
+  "id": "imperviousness_2018",
+  "stac_version": "1.0.0",
+  "description": "Share of sealed area 2018",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "child",
+      "href": "./imperviousness_2018/collection.json",
+      "type": "application/json",
+      "title": "Imperviousness density 2018",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "IMD",
+      "id": "imperviousness_2018",
+      "themes": [
+        "Luxembourg"
+      ],
+      "tags": [
+        "luxembourg, urban"
+      ],
+      "agency": [
+        "EEA"
+      ],
+      "subcode": "IMD",
+      "sensor": [
+        "example sensorname"
+      ],
+      "satellite": [
+        "example satellite"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2021",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2021"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    }
+  ],
+  "themes": [
+    "Luxembourg"
+  ],
+  "tags": [
+    "luxembourg, urban"
+  ],
+  "agency": [
+    "EEA"
+  ],
+  "subcode": "IMD",
+  "sensor": [
+    "example sensorname"
+  ],
+  "satellite": [
+    "example satellite"
+  ],
+  "title": "Imperviousness density 2018",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          26.120953702244496,
+          27.16908443662496,
+          37.641870871162936,
+          34.95324700017583
+        ],
+        [
+          26.120953702244496,
+          27.16908443662496,
+          37.641870871162936,
+          34.95324700017583
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "IMD"
+    ],
+    "themes": [
+      "Luxembourg"
+    ],
+    "satellite": [
+      "example satellite"
+    ],
+    "sensor": [
+      "example sensorname"
+    ]
+  }
+}

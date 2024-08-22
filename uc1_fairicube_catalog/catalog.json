@@ -1,0 +1,68 @@
+{
+  "type": "Catalog",
+  "id": "uc1_fairicube_catalog",
+  "stac_version": "1.0.0",
+  "description": "This catalog provides an oversight of all UC1 FAIRiCUBE related data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Use case 1 catalog for FAIRiCUBE"
+    },
+    {
+      "rel": "child",
+      "href": "./tree_cover_density/collection.json",
+      "type": "application/json",
+      "title": "Tree cover density 2018",
+      "code": "TCD",
+      "id": "tree_cover_density",
+      "themes": [
+        "Luxembourg"
+      ],
+      "subcode": "TCD",
+      "satellite": [
+        "example satellite"
+      ],
+      "sensor": [
+        "example sensorname"
+      ],
+      "tags": [
+        "luxembourg, urban"
+      ],
+      "agency": [
+        "EEA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./imperviousness_2018/collection.json",
+      "type": "application/json",
+      "title": "Imperviousness density 2018",
+      "code": "IMD",
+      "id": "imperviousness_2018",
+      "themes": [
+        "Luxembourg"
+      ],
+      "subcode": "IMD",
+      "satellite": [
+        "example satellite"
+      ],
+      "sensor": [
+        "example sensorname"
+      ],
+      "tags": [
+        "luxembourg, urban"
+      ],
+      "agency": [
+        "EEA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://organization.github.io/repository/repository/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Use case 1 catalog for FAIRiCUBE"
+}
